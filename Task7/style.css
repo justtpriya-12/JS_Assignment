@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #67B2D8;
+    text-align: center;
+    padding: 50px;
+    color: #5A0E24;
+}
+
+h1 {
+    color: #BF124D;
+    margin-bottom: 30px;
+}
+
+.joke-box {
+    background: #76153C;
+    color: #F5F5F5;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+#setup {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#punchline {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #BF124D;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: #BF124D;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #76153C;
+}
+
+button:disabled {
+    background: #5A0E24;
+    cursor: not-allowed;
+}
