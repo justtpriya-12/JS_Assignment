@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F8F4EC;
+    color: #43334C;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #E83C91;
+    margin-bottom: 30px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #FF8FB7;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #E83C91;
+}
+
+#searchBox {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #E83C91;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 400px;
+    margin: auto;
+}
+
+li {
+    background: #FF8FB7;
+    color: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
