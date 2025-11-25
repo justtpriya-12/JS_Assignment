@@ -1,83 +1,72 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    background: #f0f4f7;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.container {
-    background: #fff;
-    padding: 25px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    background: #E5E9C5;
+    text-align: center;
+    padding: 50px;
+    color: #016B61;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #70B2B2;
 }
 
-.input-section {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+.todo-container {
+    background: #9ECFD4;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-#taskInput {
-    flex: 1;
+input {
+    width: 70%;
     padding: 10px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #70B2B2;
+    border-radius: 6px;
+    outline: none;
 }
 
-#addTaskBtn {
-    padding: 10px 15px;
+button {
+    padding: 10px 16px;
+    font-size: 16px;
     border: none;
-    background: #4CAF50;
-    color: #fff;
+    background: #70B2B2;
+    color: white;
+    border-radius: 6px;
     cursor: pointer;
-    border-radius: 5px;
+    margin-left: 5px;
 }
 
-#addTaskBtn:hover {
-    background: #43a047;
+button:hover {
+    background: #016B61;
 }
 
-#taskList {
+ul {
     list-style: none;
+    padding: 0;
+    margin-top: 20px;
 }
 
-.task-item {
+li {
+    background: #E5E9C5;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    background: #eee;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
-.task-item button {
+.task-text {
+    flex: 1;
+    text-align: left;
+}
+
+li button {
     margin-left: 5px;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.edit-btn {
-    background: #2196F3;
-    color: white;
-}
-
-.delete-btn {
-    background: #f44336;
-    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
 }
